@@ -1,5 +1,3 @@
-
-
 //Problem kilometerToMeter
 function kilometerToMeter(input) {
   if (typeof input == "number" && input >= 0) {
@@ -9,8 +7,6 @@ function kilometerToMeter(input) {
   }
   return meter;
 }
-
-
 
 //Problem budgetCalculator
 function budgetCalculator(watchCount, mobileCount, laptopCount) {
@@ -24,7 +20,6 @@ function budgetCalculator(watchCount, mobileCount, laptopCount) {
     laptopCount * laptopPrice;
   return totalBudget;
 }
-
 
 //Problem hotelCost
 function hotelCost(days) {
@@ -50,15 +45,14 @@ function hotelCost(days) {
   return totalCost;
 }
 
+//Problem megaFriend
+function megaFriend(arr) {
+  var megaFriendName = arr[0];
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i].length > megaFriendName.length) {
+      megaFriendName = arr[i];
+    }
+  }
+  return megaFriendName;
+}
 
-
-function megaFriend(arr){
-    var megaFriendName = arr[0];
-    for(var i=0; i<arr.length; i++){
-      if(arr[i].length > megaFriendName.length){
-        megaFriendName = arr[i];   
-      }
-     }
-   return megaFriendName;
-   }
-   
