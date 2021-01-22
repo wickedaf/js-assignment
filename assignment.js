@@ -1,3 +1,5 @@
+//site Link - https://github.com/wickedaf/js-assignment
+
 //Problem kilometerToMeter
 function kilometerToMeter(input) {
   if (typeof input == "number" && input >= 0) {
